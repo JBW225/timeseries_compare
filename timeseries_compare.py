@@ -26,7 +26,7 @@ def parse_ratio(ratio):
     return ratio_components
     
 #%% declare class
-class multipleDaqData:
+class timeseries:
     data_time = {} # dict of dataframes
     data_fft = {} # dict of dataframes
     
